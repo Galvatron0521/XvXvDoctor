@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.com.xxdoctor.activity.me.SelectMyPlanListActivity">
+
+    <include layout="@layout/common_title" />
+
+    <com.liaoinstan.springview.widget.SpringView
+        android:id="@+id/my_plan_list_cancel_springview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:footer="@layout/default_footer"
+        app:header="@layout/default_header">
+
+        <ListView
+            android:id="@+id/my_plan_list_cancel_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/transparency_color" />
+
+    </com.liaoinstan.springview.widget.SpringView>
+
+</LinearLayout>

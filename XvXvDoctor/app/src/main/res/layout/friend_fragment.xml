@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/title_layout"
+        layout="@layout/common_title"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/fragment_search_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/friend_rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/friend_rb_patient"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/rb_selector_bg"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="患者好友"
+                android:textColor="@color/rb_text_color" />
+
+
+            <RadioButton
+                android:id="@+id/friend_rb_doctor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/rb_selector_bg"
+                android:button="@null"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="医生好友"
+                android:textColor="@color/rb_text_color" />
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:paddingBottom="6dp"
+            android:paddingTop="6dp">
+
+            <EditText
+                android:id="@+id/friend_search_et"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/search_bg"
+                android:hint="请输入好友姓名"
+                android:paddingBottom="4dp"
+                android:paddingLeft="12dp"
+                android:paddingTop="4dp"
+                android:textColor="@color/main_color"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/friend_search_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="12dp"
+                android:background="@drawable/search_bt_bg"
+                android:paddingBottom="4dp"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:paddingTop="4dp"
+                android:text="搜索"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.liaoinstan.springview.widget.SpringView
+            android:id="@+id/patient_springview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:footer="@layout/default_footer"
+            app:header="@layout/default_header">
+
+            <ListView
+                android:id="@+id/patient_listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@color/transparency_color" />
+
+        </com.liaoinstan.springview.widget.SpringView>
+
+        <com.liaoinstan.springview.widget.SpringView
+            android:id="@+id/doctor_list_springview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            app:footer="@layout/default_footer"
+            app:header="@layout/default_header">
+
+            <ListView
+                android:id="@+id/doctor_list_listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@color/transparency_color" />
+
+        </com.liaoinstan.springview.widget.SpringView>
+    </RelativeLayout>
+</LinearLayout>

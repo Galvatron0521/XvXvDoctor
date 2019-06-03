@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.liaoinstan.springview.widget.SpringView
+        android:id="@+id/suifang_jilu_springview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:footer="@layout/default_footer"
+        app:header="@layout/default_header">
+
+        <ListView
+            android:id="@+id/suifang_jilu_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/transparency_color" />
+
+    </com.liaoinstan.springview.widget.SpringView>
+
+    <ImageButton
+        android:id="@+id/suifang_jilu_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="24dp"
+        android:background="@color/white"
+        android:src="@drawable/add_button" />
+</RelativeLayout>

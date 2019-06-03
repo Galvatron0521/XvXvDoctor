@@ -1,0 +1,1150 @@
+-- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:290:9-298:20
+	android:grantUriPermissions
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:294:13-47
+	android:authorities
+		INJECTED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:292:13-60
+	android:exported
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:293:13-37
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:291:13-67
+manifest
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:2:1-301:12
+INJECTED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:2:1-301:12
+INJECTED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:2:1-301:12
+INJECTED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:2:1-301:12
+MERGED from [:chatlibrary] D:\AndroidProjects\XvXvDoctor\XvXvDoctor\chatlibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:reclib-testemoticons] D:\AndroidProjects\XvXvDoctor\XvXvDoctor\reclib-testemoticons\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-10:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\1bc94c41eeed82a56ca3f389e8e01c7a\AndroidManifest.xml:17:1-22:12
+MERGED from [:reclib-qq] D:\AndroidProjects\XvXvDoctor\XvXvDoctor\reclib-qq\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-17:12
+MERGED from [com.liaoinstan.springview:library:1.5.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-1.5.0.aar\91dfc54d4486a3881403aa639c136718\AndroidManifest.xml:2:1-17:12
+MERGED from [com.github.gittjy:LoadingDialog:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\LoadingDialog-1.0.2.aar\e1b3e62acac6266004032add6d5e914b\AndroidManifest.xml:2:1-17:12
+MERGED from [com.baoyz.actionsheet:library:1.1.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-1.1.7.aar\f53e0e6f89ecc7fcebb0f3d07fce041b\AndroidManifest.xml:2:1-11:12
+MERGED from [liji.library.dev:citypickerview:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\citypickerview-1.1.0.aar\d8a0e417485cb80b723d9fbeca0bca94\AndroidManifest.xml:2:1-19:12
+MERGED from [com.android.support:design:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\0e7c879c8ef4e4e1286404bbeeae12e7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\0ad88e2844d29e48e273912b85270d23\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\4fd84440a7ed140d7fa2d4e5b54c451b\AndroidManifest.xml:2:1-11:12
+MERGED from [com.makeramen:roundedimageview:2.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\roundedimageview-2.2.1.aar\1fdd84707d97a69e3f7f38b4c1e1348a\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mylhyl:circleDialog:2.6.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\circleDialog-2.6.6.aar\339a49befd63b1df7600a92fb4becb21\AndroidManifest.xml:2:1-13:12
+MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.1.aar\ab931227f6637efa510dd12e0e72be87\AndroidManifest.xml:15:1-21:12
+MERGED from [com.contrarywind:Android-PickerView:3.2.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\Android-PickerView-3.2.6.aar\e89e2f9d887b19df14d235870e8aeef3\AndroidManifest.xml:2:1-11:12
+MERGED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\9f614d6d926aafe6a099cf816923a249\AndroidManifest.xml:2:1-36:12
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:2:1-121:12
+MERGED from [cn.jiguang.sdk:jcore:1.2.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jcore-1.2.3.aar\565538a407e866a462d858dba57d8c2e\AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.chrisbanes:PhotoView:2.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\PhotoView-2.3.0.aar\5ded9a53b92478347fa9137c49c8e769\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.w446108264:AndroidEmoji:1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\AndroidEmoji-1.3.aar\d0ffddb8ca7b2112aa7dd65dbe9b3b42\AndroidManifest.xml:2:1-10:12
+MERGED from [com.hyman:flowlayout-lib:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\flowlayout-lib-1.1.2.aar\ebfe8d667c9dfccf5178cf5e5b822d4b\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\7698267dcda8a9fadcb226b5150edaa2\AndroidManifest.xml:17:1-28:12
+MERGED from [com.github.mcxtzhang:SwipeDelMenuLayout:V1.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SwipeDelMenuLayout-V1.3.0.aar\e414d2b2237ff2a6dd655629741d4d81\AndroidManifest.xml:2:1-13:12
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3eef47714a77642f9daa9747ce1975dd\AndroidManifest.xml:2:1-28:12
+MERGED from [com.github.chrisbanes.photoview:library:1.2.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-1.2.4.aar\ccf769ead4a463f7603bcef765367749\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.fresco:fresco:0.8.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\fresco-0.8.1.aar\2a294ef54cea694ac7b607e077d78ed3\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:0.8.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\imagepipeline-0.8.1.aar\9a4771de0cb6854ad17beb3c6ff177c1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:0.8.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\drawee-0.8.1.aar\99faa78808c42a2508180379989095bc\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-v4:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\28d12ab0e697e31aae9a2b58b8093ef2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\9ac58597b7a7851f2d4d26eb5e98966a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\26442eca82aad4afe42a01918db941b9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\88033c99e4ca02bfd3b6b72dcdb62c71\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\484b0eea76ddae83ba5bbc124483d09d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\aa6ecc941a8a8e25091a6e93b54ada11\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\498f9c45d31db7a94f7b60be7c6f212d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\c20d6f08b0961a753c06e05c9f40636a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\fd35d1c8d4fc3df792386d504ba01b42\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\bd86e3620176071ec012f0af9918e4b1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.0.aar\7afcafa19d1ad5ebdb5f7dcce33a967c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\84ed64cf08bf939f108e564f8c55ee1d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.0.0.aar\9e6ba705c37787be93c8b21bd21812fa\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\cab85adacfee348577542e7908b5f847\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\a7cf48064d02c4d5db96c2f100367ab1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.0.0.aar\19b84c1d1e4f48c593b6e3d599138662\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\b3ab3d408f01643167740a45172e38cc\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\7eed17635994c1830ab2a0f11775b0f2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\6de921c3a2a03e832090edea33b5e508\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\d27a5b63f151c98a49ca39b98a078e50\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\1a2430a90335c48099204978bd545921\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\b6085aa80b5f0a737a7157ff2c610467\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\9012767035c6431a7b04b35da7b4b933\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\995165996edf6ea3ff8020be865026c8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\c755af84381f506b43061e16d1e147e4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\40bad21003a05c98948361fe574f8b01\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\77948b9e0735feae571144a5d777b521\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\0c44abe0a16455ba49060a406f1d9f25\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\cfc538210dd34bd2fa9237921342a002\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\9ddb0284987a51aac197fb65166a1443\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\f9411fb75c96bd2f328ee216921dd522\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\44e26d42bd2fce7d864061fdff707fd6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\f6e442984a89705bc2f6957949242891\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\9930058dff823cd1f2600f9f5799c4a2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\1584501eb28586cc51269bde958b4134\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\24df02b358274cf79489c0e31706c8b2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:0.8.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\fbcore-0.8.1.aar\b987a1cdfc2fef88477986511461fdea\AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\54f890528a8cef989191f4ad159f7138\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\f4194356e78887baa50c0854490fa8a6\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a77a040c892568972987dd0bec0879cd\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\6e0b9bbb053aa3cabdcc7f85388e0edc\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:2:1-301:12
+INJECTED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:2:1-301:12
+INJECTED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:2:1-301:12
+	package
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:4:5-30
+		INJECTED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:2:1-301:12
+		INJECTED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:2:1-301:12
+		INJECTED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:2:11-69
+permission#cn.com.xxdoctor.permission.JPUSH_MESSAGE
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:6:5-8:47
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:11:5-13:47
+	android:protectionLevel
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:8:9-44
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:7:9-64
+uses-permission#cn.com.xxdoctor.permission.JPUSH_MESSAGE
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:11:5-80
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:11:22-77
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:12:5-79
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:17:5-79
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.INTERNET
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:13:5-67
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:18:5-67
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:18:5-67
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:13:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:14:5-68
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:19:5-68
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:19:5-68
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:14:22-65
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:15:5-75
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:20:5-75
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:20:5-75
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3eef47714a77642f9daa9747ce1975dd\AndroidManifest.xml:18:5-75
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3eef47714a77642f9daa9747ce1975dd\AndroidManifest.xml:18:5-75
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:15:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:16:5-81
+MERGED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\9f614d6d926aafe6a099cf816923a249\AndroidManifest.xml:14:5-81
+MERGED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\9f614d6d926aafe6a099cf816923a249\AndroidManifest.xml:14:5-81
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:21:5-81
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:21:5-81
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3eef47714a77642f9daa9747ce1975dd\AndroidManifest.xml:14:5-81
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3eef47714a77642f9daa9747ce1975dd\AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:16:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:17:5-80
+MERGED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\9f614d6d926aafe6a099cf816923a249\AndroidManifest.xml:16:5-80
+MERGED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\9f614d6d926aafe6a099cf816923a249\AndroidManifest.xml:16:5-80
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:22:5-80
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:22:5-80
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3eef47714a77642f9daa9747ce1975dd\AndroidManifest.xml:16:5-80
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3eef47714a77642f9daa9747ce1975dd\AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:17:22-77
+uses-permission#android.permission.VIBRATE
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:18:5-66
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:23:5-66
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:23:5-66
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:18:22-63
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:19:5-84
+MERGED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\9f614d6d926aafe6a099cf816923a249\AndroidManifest.xml:12:5-84
+MERGED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\9f614d6d926aafe6a099cf816923a249\AndroidManifest.xml:12:5-84
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:24:5-84
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:24:5-84
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3eef47714a77642f9daa9747ce1975dd\AndroidManifest.xml:12:5-84
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3eef47714a77642f9daa9747ce1975dd\AndroidManifest.xml:12:5-84
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:19:22-81
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:20:5-79
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:25:5-79
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:25:5-79
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3eef47714a77642f9daa9747ce1975dd\AndroidManifest.xml:24:5-79
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3eef47714a77642f9daa9747ce1975dd\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:20:22-76
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:21:5-73
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:26:5-73
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:26:5-73
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:21:22-70
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:22:5-76
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:27:5-76
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:27:5-76
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3eef47714a77642f9daa9747ce1975dd\AndroidManifest.xml:20:5-76
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3eef47714a77642f9daa9747ce1975dd\AndroidManifest.xml:20:5-76
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:22:22-73
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:25:5-78
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:30:5-78
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:30:5-78
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:25:22-75
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:26:5-81
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:31:5-81
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:31:5-81
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:26:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:27:5-79
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:32:5-79
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:27:22-76
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:28:5-89
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:33:5-89
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:33:5-89
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:28:22-86
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:29:5-76
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:34:5-76
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:34:5-76
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:29:22-73
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:30:5-79
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:35:5-79
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:35:5-79
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:30:22-76
+uses-permission#android.permission.GET_TASKS
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:31:5-68
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3eef47714a77642f9daa9747ce1975dd\AndroidManifest.xml:22:5-68
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3eef47714a77642f9daa9747ce1975dd\AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:31:22-65
+uses-permission#android.permission.CALL_PHONE
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:36:5-69
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3eef47714a77642f9daa9747ce1975dd\AndroidManifest.xml:26:5-69
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3eef47714a77642f9daa9747ce1975dd\AndroidManifest.xml:26:5-69
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:36:22-66
+uses-permission#android.permission.SEND_SMS
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:37:5-67
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:37:22-64
+application
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:39:5-299:19
+MERGED from [:reclib-qq] D:\AndroidProjects\XvXvDoctor\XvXvDoctor\reclib-qq\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-15:19
+MERGED from [:reclib-qq] D:\AndroidProjects\XvXvDoctor\XvXvDoctor\reclib-qq\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-15:19
+MERGED from [com.liaoinstan.springview:library:1.5.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-1.5.0.aar\91dfc54d4486a3881403aa639c136718\AndroidManifest.xml:11:5-15:19
+MERGED from [com.liaoinstan.springview:library:1.5.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-1.5.0.aar\91dfc54d4486a3881403aa639c136718\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.gittjy:LoadingDialog:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\LoadingDialog-1.0.2.aar\e1b3e62acac6266004032add6d5e914b\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.gittjy:LoadingDialog:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\LoadingDialog-1.0.2.aar\e1b3e62acac6266004032add6d5e914b\AndroidManifest.xml:11:5-15:19
+MERGED from [liji.library.dev:citypickerview:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\citypickerview-1.1.0.aar\d8a0e417485cb80b723d9fbeca0bca94\AndroidManifest.xml:11:5-17:19
+MERGED from [liji.library.dev:citypickerview:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\citypickerview-1.1.0.aar\d8a0e417485cb80b723d9fbeca0bca94\AndroidManifest.xml:11:5-17:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\4fd84440a7ed140d7fa2d4e5b54c451b\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\4fd84440a7ed140d7fa2d4e5b54c451b\AndroidManifest.xml:9:5-20
+MERGED from [com.mylhyl:circleDialog:2.6.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\circleDialog-2.6.6.aar\339a49befd63b1df7600a92fb4becb21\AndroidManifest.xml:11:5-20
+MERGED from [com.mylhyl:circleDialog:2.6.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\circleDialog-2.6.6.aar\339a49befd63b1df7600a92fb4becb21\AndroidManifest.xml:11:5-20
+MERGED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\9f614d6d926aafe6a099cf816923a249\AndroidManifest.xml:18:5-34:19
+MERGED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\9f614d6d926aafe6a099cf816923a249\AndroidManifest.xml:18:5-34:19
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:42:5-119:19
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:42:5-119:19
+MERGED from [cn.jiguang.sdk:jcore:1.2.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jcore-1.2.3.aar\565538a407e866a462d858dba57d8c2e\AndroidManifest.xml:11:5-12:19
+MERGED from [cn.jiguang.sdk:jcore:1.2.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jcore-1.2.3.aar\565538a407e866a462d858dba57d8c2e\AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\7698267dcda8a9fadcb226b5150edaa2\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\7698267dcda8a9fadcb226b5150edaa2\AndroidManifest.xml:22:5-26:19
+MERGED from [com.github.mcxtzhang:SwipeDelMenuLayout:V1.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SwipeDelMenuLayout-V1.3.0.aar\e414d2b2237ff2a6dd655629741d4d81\AndroidManifest.xml:11:5-20
+MERGED from [com.github.mcxtzhang:SwipeDelMenuLayout:V1.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SwipeDelMenuLayout-V1.3.0.aar\e414d2b2237ff2a6dd655629741d4d81\AndroidManifest.xml:11:5-20
+MERGED from [androidx.core:core:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\c755af84381f506b43061e16d1e147e4\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\c755af84381f506b43061e16d1e147e4\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\40bad21003a05c98948361fe574f8b01\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\40bad21003a05c98948361fe574f8b01\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\c755af84381f506b43061e16d1e147e4\AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from [:reclib-qq] D:\AndroidProjects\XvXvDoctor\XvXvDoctor\reclib-qq\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:43:9-41
+	android:largeHeap
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\9f614d6d926aafe6a099cf816923a249\AndroidManifest.xml:20:9-33
+	android:icon
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:42:9-43
+	android:allowBackup
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:41:9-35
+	android:theme
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:44:9-46
+	tools:replace
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:45:9-38
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:40:9-50
+activity#cn.com.xxdoctor.activity.main.SplashActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:46:9-54:20
+	android:theme
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:48:13-49
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:47:13-57
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:49:13-53:29
+action#android.intent.action.MAIN
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:50:17-69
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:50:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:52:17-77
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:52:27-74
+service#cn.jpush.android.service.PushService
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:56:9-59:36
+REJECTED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:46:9-57:19
+	tools:node
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:59:13-33
+	android:process
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:58:13-44
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:57:13-64
+activity#cn.com.xxdoctor.activity.main.MainActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:61:9-64
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:61:19-61
+activity#cn.com.xxdoctor.activity.patientCenter.PatientInfoActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:62:9-80
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:62:19-77
+activity#cn.com.xxdoctor.activity.patientCenter.AddPatientInfoActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:63:9-83
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:63:19-80
+activity#cn.com.xxdoctor.activity.tag.TagManageActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:64:9-68
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:64:19-65
+activity#cn.com.xxdoctor.activity.suiFangRecord.SuiFangListActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:65:9-80
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:65:19-77
+activity#cn.com.xxdoctor.activity.suiFangRecord.AddSuiFangJiluActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:66:9-83
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:66:19-80
+activity#cn.com.xxdoctor.activity.suiFangFangAn.AddSuiFangFangAnActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:67:9-85
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:67:19-82
+activity#cn.com.xxdoctor.activity.main.SuiFangManageActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:68:9-73
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:68:19-70
+activity#cn.com.xxdoctor.activity.main.LoginActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:69:9-65
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:69:19-62
+activity#cn.com.xxdoctor.activity.bingChengGuanLi.BingChengManageListActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:70:9-90
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:70:19-87
+activity#cn.com.xxdoctor.activity.tag.SelectPatientTagActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:71:9-75
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:71:19-72
+activity#cn.com.xxdoctor.activity.suiFangFangAn.SuiFangFangAnActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:72:9-82
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:72:19-79
+activity#cn.com.xxdoctor.activity.bingChengGuanLi.BingChengSelectActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:73:9-86
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:73:19-83
+activity#cn.com.xxdoctor.activity.bingChengGuanLi.BianZheng.AddBianZhengLunZhiActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:74:9-99
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:74:19-96
+activity#cn.com.xxdoctor.activity.bingChengGuanLi.BianZheng.BianZhengLunDetailZhiActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:75:9-102
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:75:19-99
+activity#cn.com.xxdoctor.activity.patientCenter.PatientListActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:76:9-80
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:76:19-77
+activity#cn.com.xxdoctor.activity.bingChengGuanLi.PictureUpDataActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:77:9-84
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:77:19-81
+activity#cn.com.xxdoctor.activity.bingChengGuanLi.LiangBiao.LiangBiaoSelectActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:78:9-96
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:78:19-93
+activity#cn.com.xxdoctor.activity.bingChengGuanLi.LiangBiao.LiangBiaoSelectDetailActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:79:9-102
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:79:19-99
+activity#cn.com.xxdoctor.activity.bingChengGuanLi.LiangBiao.AddLiangBiaoInfoActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:80:9-97
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:80:19-94
+activity#cn.com.xxdoctor.activity.bingChengGuanLi.BingChengBaoGaoActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:81:9-86
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:81:19-83
+activity#cn.com.xxdoctor.chat.activity.ChatActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:82:9-64
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:82:19-61
+activity#cn.com.xxdoctor.chat.activity.ChatDetailActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:83:9-70
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:83:19-67
+activity#cn.com.xxdoctor.chat.activity.FinishRegisterActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:84:9-87:58
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:86:13-49
+	android:windowSoftInputMode
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:87:13-55
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:85:13-65
+activity#cn.com.xxdoctor.chat.activity.ResetPasswordActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:88:9-90:52
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:90:13-49
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:89:13-64
+activity#cn.com.xxdoctor.chat.activity.FeedbackActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:91:9-93:52
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:93:13-49
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:92:13-59
+activity#cn.com.xxdoctor.chat.activity.AboutJChatActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:94:9-96:52
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:96:13-49
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:95:13-61
+activity#cn.com.xxdoctor.chat.activity.PersonalActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:98:9-100:52
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:100:13-49
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:99:13-59
+activity#cn.com.xxdoctor.chat.activity.NickSignActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:101:9-103:52
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:103:13-49
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:102:13-59
+activity#cn.com.xxdoctor.chat.activity.SearchForAddFriendActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:104:9-106:52
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:106:13-49
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:105:13-69
+activity#cn.com.xxdoctor.chat.activity.SearchFriendInfoActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:107:9-109:52
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:109:13-49
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:108:13-67
+activity#cn.com.xxdoctor.chat.activity.VerificationActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:110:9-112:52
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:112:13-49
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:111:13-63
+activity#cn.com.xxdoctor.chat.activity.FriendRecommendActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:113:9-115:52
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:115:13-49
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:114:13-66
+activity#cn.com.xxdoctor.chat.activity.SearchFriendDetailActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:116:9-118:52
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:118:13-49
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:117:13-69
+activity#cn.com.xxdoctor.chat.activity.SearchContactsActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:119:9-122:58
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:121:13-49
+	android:windowSoftInputMode
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:122:13-55
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:120:13-65
+activity#cn.com.xxdoctor.chat.utils.imagepicker.ImageBaseActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:123:9-125:52
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:125:13-49
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:124:13-69
+activity#cn.com.xxdoctor.chat.utils.imagepicker.ImageGridActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:126:9-130:55
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:129:13-49
+	android:configChanges
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:128:13-59
+	android:theme
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:130:13-52
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:127:13-69
+activity#cn.com.xxdoctor.chat.utils.imagepicker.ImageCropActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:131:9-136:55
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:135:13-49
+	android:hardwareAccelerated
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:134:13-48
+	android:configChanges
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:133:13-59
+	android:theme
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:136:13-52
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:132:13-69
+activity#cn.com.xxdoctor.chat.utils.imagepicker.ImagePreviewActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:137:9-141:65
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:140:13-49
+	android:configChanges
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:139:13-59
+	android:theme
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:141:13-62
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:138:13-72
+activity#cn.com.xxdoctor.chat.utils.imagepicker.ImagePreviewDelActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:142:9-145:65
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:144:13-49
+	android:theme
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:145:13-62
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:143:13-75
+activity#cn.com.xxdoctor.chat.pickerimage.PickerAlbumActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:146:9-148:52
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:148:13-49
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:147:13-65
+activity#cn.com.xxdoctor.chat.pickerimage.PickerAlbumPreviewActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:149:9-151:52
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:151:13-49
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:150:13-72
+activity#cn.com.xxdoctor.chat.pickerimage.PickImageActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:152:9-154:52
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:154:13-49
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:153:13-63
+activity#cn.com.xxdoctor.chat.activity.BrowserViewPagerActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:155:9-157:52
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:157:13-49
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:156:13-67
+activity#cn.com.xxdoctor.chat.activity.historyfile.activity.BrowserFileImageActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:158:9-160:52
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:160:13-49
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:159:13-88
+activity#cn.com.xxdoctor.chat.activity.WatchVideoActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:161:9-163:52
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:163:13-49
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:162:13-61
+activity#cn.com.xxdoctor.chat.activity.SendFileActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:164:9-168:51
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:167:13-49
+	android:launchMode
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:166:13-48
+	android:theme
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:168:13-48
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:165:13-59
+activity#cn.com.xxdoctor.chat.activity.historyfile.activity.HistoryFileActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:169:9-172:51
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:171:13-49
+	android:theme
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:172:13-48
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:170:13-83
+activity#cn.com.xxdoctor.chat.activity.PlayVideoActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:173:9-175:52
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:175:13-49
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:174:13-60
+activity#cn.com.xxdoctor.chat.location.activity.MapPickerActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:176:9-179:74
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:178:13-49
+	android:theme
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:179:13-71
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:177:13-69
+activity#cn.com.xxdoctor.chat.activity.FriendInfoActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:180:9-182:52
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:182:13-49
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:181:13-61
+activity#cn.com.xxdoctor.chat.activity.MembersInChatActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:183:9-187:67
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:186:13-49
+	android:windowSoftInputMode
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:187:13-64
+	android:configChanges
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:185:13-63
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:184:13-64
+activity#cn.com.xxdoctor.chat.activity.GroupActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:188:9-190:52
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:190:13-49
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:189:13-56
+activity#cn.com.xxdoctor.chat.activity.SearchMoreFriendsActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:191:9-195:67
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:194:13-49
+	android:windowSoftInputMode
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:195:13-64
+	android:configChanges
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:193:13-63
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:192:13-68
+activity#cn.com.xxdoctor.chat.activity.SearchMoreGroupActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:196:9-201:67
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:199:13-49
+	android:windowSoftInputMode
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:201:13-64
+	android:configChanges
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:198:13-63
+	android:theme
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:200:13-48
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:197:13-66
+activity#cn.com.xxdoctor.chat.activity.FriendSettingActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:202:9-204:52
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:204:13-49
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:203:13-64
+activity#cn.com.xxdoctor.chat.activity.SetNoteNameActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:205:9-207:52
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:207:13-49
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:206:13-62
+activity#cn.com.xxdoctor.chat.activity.ChooseAtMemberActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:208:9-210:52
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:210:13-49
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:209:13-65
+activity#cn.com.xxdoctor.chat.activity.GroupGridViewActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:211:9-213:52
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:213:13-49
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:212:13-64
+activity#cn.com.xxdoctor.chat.activity.GroupNotFriendActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:214:9-216:52
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:216:13-49
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:215:13-65
+activity#cn.com.xxdoctor.chat.activity.SelectFriendActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:217:9-219:52
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:219:13-49
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:218:13-63
+activity#cn.com.xxdoctor.chat.activity.DownLoadActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:220:9-222:52
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:222:13-49
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:221:13-59
+activity#cn.com.xxdoctor.chat.activity.CreateGroupActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:223:9-227:67
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:226:13-49
+	android:windowSoftInputMode
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:227:13-64
+	android:configChanges
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:225:13-63
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:224:13-62
+activity#cn.com.xxdoctor.chat.utils.photovideo.takevideo.CameraActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:228:9-233:55
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:232:13-49
+	android:launchMode
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:231:13-44
+	android:configChanges
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:230:13-63
+	android:theme
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:233:13-52
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:229:13-75
+activity#cn.com.xxdoctor.chat.activity.SearchGroupActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:234:9-237:58
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:236:13-49
+	android:windowSoftInputMode
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:237:13-55
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:235:13-62
+activity#cn.com.xxdoctor.chat.activity.SearchAtMemberActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:238:9-241:58
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:240:13-49
+	android:windowSoftInputMode
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:241:13-55
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:239:13-65
+activity#cn.com.xxdoctor.chat.activity.ForwardMsgActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:242:9-245:58
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:244:13-49
+	android:windowSoftInputMode
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:245:13-55
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:243:13-61
+activity#cn.com.xxdoctor.chat.activity.Person2CodeActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:246:9-249:58
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:248:13-49
+	android:windowSoftInputMode
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:249:13-55
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:247:13-62
+activity#cn.com.xxdoctor.chat.activity.ScanResultActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:250:9-253:58
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:252:13-49
+	android:windowSoftInputMode
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:253:13-55
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:251:13-61
+activity#cn.com.xxdoctor.chat.activity.CommonScanActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:254:9-258:58
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:256:13-49
+	android:windowSoftInputMode
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:258:13-55
+	android:theme
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:257:13-71
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:255:13-61
+activity#cn.com.xxdoctor.chat.activity.receiptmessage.ReceiptMessageListActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:259:9-262:58
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:261:13-49
+	android:windowSoftInputMode
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:262:13-55
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:260:13-84
+activity#cn.com.xxdoctor.chat.activity.SearchFriendBusinessActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:263:9-266:58
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:265:13-49
+	android:windowSoftInputMode
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:266:13-55
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:264:13-71
+activity#cn.com.xxdoctor.chat.activity.FriendListActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:267:9-269:52
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:269:13-49
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:268:13-61
+activity#cn.com.xxdoctor.chat.activity.NotFriendSettingActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:270:9-272:52
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:272:13-49
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:271:13-67
+activity#cn.com.xxdoctor.chat.activity.GroupAvatarActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:273:9-276:44
+	android:screenOrientation
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:275:13-49
+	android:theme
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:276:13-41
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:274:13-62
+activity#cn.com.xxdoctor.activity.me.CodeActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:277:9-62
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:277:19-59
+activity#cn.com.xxdoctor.activity.me.TingZhenActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:278:9-66
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:278:19-63
+activity#cn.com.xxdoctor.activity.me.MyLiangBiaoListActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:279:9-73
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:279:19-70
+activity#cn.com.xxdoctor.activity.me.MyLiangBiaoDetailActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:280:9-75
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:280:19-72
+activity#cn.com.xxdoctor.activity.me.MySubjectListActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:281:9-71
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:281:19-68
+activity#cn.com.xxdoctor.activity.me.AddMySubjectActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:282:9-70
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:282:19-67
+activity#cn.com.xxdoctor.activity.me.MyPlanListActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:283:9-68
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:283:19-65
+activity#cn.com.xxdoctor.activity.me.AddMyPlanActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:284:9-67
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:284:19-64
+activity#cn.com.xxdoctor.activity.me.SelectMyPlanListActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:285:9-83
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:285:19-71
+activity#cn.com.xxdoctor.activity.me.MySuggestionAct
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:286:9-74
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:286:19-62
+activity#cn.com.xxdoctor.activity.suiFangRecord.SelectMySuiFangPlanListActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:287:9-92
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:287:19-89
+activity#cn.com.xxdoctor.activity.suiFangRecord.SuiFangBianZhengLunDetailZhiActivity
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:288:9-97
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:288:19-94
+uses-sdk
+INJECTED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml
+MERGED from [:chatlibrary] D:\AndroidProjects\XvXvDoctor\XvXvDoctor\chatlibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:chatlibrary] D:\AndroidProjects\XvXvDoctor\XvXvDoctor\chatlibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:reclib-testemoticons] D:\AndroidProjects\XvXvDoctor\XvXvDoctor\reclib-testemoticons\build\intermediates\manifests\full\debug\AndroidManifest.xml:6:5-8:41
+MERGED from [:reclib-testemoticons] D:\AndroidProjects\XvXvDoctor\XvXvDoctor\reclib-testemoticons\build\intermediates\manifests\full\debug\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\1bc94c41eeed82a56ca3f389e8e01c7a\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\1bc94c41eeed82a56ca3f389e8e01c7a\AndroidManifest.xml:20:5-43
+MERGED from [:reclib-qq] D:\AndroidProjects\XvXvDoctor\XvXvDoctor\reclib-qq\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:reclib-qq] D:\AndroidProjects\XvXvDoctor\XvXvDoctor\reclib-qq\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.liaoinstan.springview:library:1.5.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-1.5.0.aar\91dfc54d4486a3881403aa639c136718\AndroidManifest.xml:7:5-9:41
+MERGED from [com.liaoinstan.springview:library:1.5.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-1.5.0.aar\91dfc54d4486a3881403aa639c136718\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.gittjy:LoadingDialog:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\LoadingDialog-1.0.2.aar\e1b3e62acac6266004032add6d5e914b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.gittjy:LoadingDialog:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\LoadingDialog-1.0.2.aar\e1b3e62acac6266004032add6d5e914b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.baoyz.actionsheet:library:1.1.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-1.1.7.aar\f53e0e6f89ecc7fcebb0f3d07fce041b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.baoyz.actionsheet:library:1.1.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-1.1.7.aar\f53e0e6f89ecc7fcebb0f3d07fce041b\AndroidManifest.xml:7:5-9:41
+MERGED from [liji.library.dev:citypickerview:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\citypickerview-1.1.0.aar\d8a0e417485cb80b723d9fbeca0bca94\AndroidManifest.xml:7:5-9:41
+MERGED from [liji.library.dev:citypickerview:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\citypickerview-1.1.0.aar\d8a0e417485cb80b723d9fbeca0bca94\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\0e7c879c8ef4e4e1286404bbeeae12e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\0e7c879c8ef4e4e1286404bbeeae12e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\0ad88e2844d29e48e273912b85270d23\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\0ad88e2844d29e48e273912b85270d23\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\4fd84440a7ed140d7fa2d4e5b54c451b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\4fd84440a7ed140d7fa2d4e5b54c451b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.makeramen:roundedimageview:2.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\roundedimageview-2.2.1.aar\1fdd84707d97a69e3f7f38b4c1e1348a\AndroidManifest.xml:7:5-43
+MERGED from [com.makeramen:roundedimageview:2.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\roundedimageview-2.2.1.aar\1fdd84707d97a69e3f7f38b4c1e1348a\AndroidManifest.xml:7:5-43
+MERGED from [com.mylhyl:circleDialog:2.6.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\circleDialog-2.6.6.aar\339a49befd63b1df7600a92fb4becb21\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mylhyl:circleDialog:2.6.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\circleDialog-2.6.6.aar\339a49befd63b1df7600a92fb4becb21\AndroidManifest.xml:7:5-9:41
+MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.1.aar\ab931227f6637efa510dd12e0e72be87\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.1.aar\ab931227f6637efa510dd12e0e72be87\AndroidManifest.xml:19:5-43
+MERGED from [com.contrarywind:Android-PickerView:3.2.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\Android-PickerView-3.2.6.aar\e89e2f9d887b19df14d235870e8aeef3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.contrarywind:Android-PickerView:3.2.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\Android-PickerView-3.2.6.aar\e89e2f9d887b19df14d235870e8aeef3\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\9f614d6d926aafe6a099cf816923a249\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\9f614d6d926aafe6a099cf816923a249\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.jiguang.sdk:jcore:1.2.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jcore-1.2.3.aar\565538a407e866a462d858dba57d8c2e\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.jiguang.sdk:jcore:1.2.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jcore-1.2.3.aar\565538a407e866a462d858dba57d8c2e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.chrisbanes:PhotoView:2.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\PhotoView-2.3.0.aar\5ded9a53b92478347fa9137c49c8e769\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.chrisbanes:PhotoView:2.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\PhotoView-2.3.0.aar\5ded9a53b92478347fa9137c49c8e769\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.w446108264:AndroidEmoji:1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\AndroidEmoji-1.3.aar\d0ffddb8ca7b2112aa7dd65dbe9b3b42\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.w446108264:AndroidEmoji:1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\AndroidEmoji-1.3.aar\d0ffddb8ca7b2112aa7dd65dbe9b3b42\AndroidManifest.xml:6:5-8:41
+MERGED from [com.hyman:flowlayout-lib:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\flowlayout-lib-1.1.2.aar\ebfe8d667c9dfccf5178cf5e5b822d4b\AndroidManifest.xml:8:5-10:41
+MERGED from [com.hyman:flowlayout-lib:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\flowlayout-lib-1.1.2.aar\ebfe8d667c9dfccf5178cf5e5b822d4b\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\7698267dcda8a9fadcb226b5150edaa2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\7698267dcda8a9fadcb226b5150edaa2\AndroidManifest.xml:20:5-44
+MERGED from [com.github.mcxtzhang:SwipeDelMenuLayout:V1.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SwipeDelMenuLayout-V1.3.0.aar\e414d2b2237ff2a6dd655629741d4d81\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.mcxtzhang:SwipeDelMenuLayout:V1.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SwipeDelMenuLayout-V1.3.0.aar\e414d2b2237ff2a6dd655629741d4d81\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3eef47714a77642f9daa9747ce1975dd\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3eef47714a77642f9daa9747ce1975dd\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.chrisbanes.photoview:library:1.2.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-1.2.4.aar\ccf769ead4a463f7603bcef765367749\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.chrisbanes.photoview:library:1.2.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-1.2.4.aar\ccf769ead4a463f7603bcef765367749\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fresco:0.8.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\fresco-0.8.1.aar\2a294ef54cea694ac7b607e077d78ed3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:0.8.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\fresco-0.8.1.aar\2a294ef54cea694ac7b607e077d78ed3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.8.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\imagepipeline-0.8.1.aar\9a4771de0cb6854ad17beb3c6ff177c1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.8.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\imagepipeline-0.8.1.aar\9a4771de0cb6854ad17beb3c6ff177c1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:0.8.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\drawee-0.8.1.aar\99faa78808c42a2508180379989095bc\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:0.8.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\drawee-0.8.1.aar\99faa78808c42a2508180379989095bc\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\28d12ab0e697e31aae9a2b58b8093ef2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\28d12ab0e697e31aae9a2b58b8093ef2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\9ac58597b7a7851f2d4d26eb5e98966a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\9ac58597b7a7851f2d4d26eb5e98966a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\26442eca82aad4afe42a01918db941b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\26442eca82aad4afe42a01918db941b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\88033c99e4ca02bfd3b6b72dcdb62c71\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\88033c99e4ca02bfd3b6b72dcdb62c71\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\484b0eea76ddae83ba5bbc124483d09d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\484b0eea76ddae83ba5bbc124483d09d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\aa6ecc941a8a8e25091a6e93b54ada11\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\aa6ecc941a8a8e25091a6e93b54ada11\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\498f9c45d31db7a94f7b60be7c6f212d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\498f9c45d31db7a94f7b60be7c6f212d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\c20d6f08b0961a753c06e05c9f40636a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\c20d6f08b0961a753c06e05c9f40636a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\fd35d1c8d4fc3df792386d504ba01b42\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\fd35d1c8d4fc3df792386d504ba01b42\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\bd86e3620176071ec012f0af9918e4b1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\bd86e3620176071ec012f0af9918e4b1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.0.aar\7afcafa19d1ad5ebdb5f7dcce33a967c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.0.aar\7afcafa19d1ad5ebdb5f7dcce33a967c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\84ed64cf08bf939f108e564f8c55ee1d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\84ed64cf08bf939f108e564f8c55ee1d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.0.0.aar\9e6ba705c37787be93c8b21bd21812fa\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.0.0.aar\9e6ba705c37787be93c8b21bd21812fa\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\cab85adacfee348577542e7908b5f847\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\cab85adacfee348577542e7908b5f847\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\a7cf48064d02c4d5db96c2f100367ab1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\a7cf48064d02c4d5db96c2f100367ab1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.0.0.aar\19b84c1d1e4f48c593b6e3d599138662\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.0.0.aar\19b84c1d1e4f48c593b6e3d599138662\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\b3ab3d408f01643167740a45172e38cc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\b3ab3d408f01643167740a45172e38cc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\7eed17635994c1830ab2a0f11775b0f2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\7eed17635994c1830ab2a0f11775b0f2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\6de921c3a2a03e832090edea33b5e508\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\6de921c3a2a03e832090edea33b5e508\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\d27a5b63f151c98a49ca39b98a078e50\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\d27a5b63f151c98a49ca39b98a078e50\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\1a2430a90335c48099204978bd545921\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\1a2430a90335c48099204978bd545921\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\b6085aa80b5f0a737a7157ff2c610467\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\b6085aa80b5f0a737a7157ff2c610467\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\9012767035c6431a7b04b35da7b4b933\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\9012767035c6431a7b04b35da7b4b933\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\995165996edf6ea3ff8020be865026c8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\995165996edf6ea3ff8020be865026c8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\c755af84381f506b43061e16d1e147e4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\c755af84381f506b43061e16d1e147e4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\40bad21003a05c98948361fe574f8b01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\40bad21003a05c98948361fe574f8b01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\77948b9e0735feae571144a5d777b521\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\77948b9e0735feae571144a5d777b521\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\0c44abe0a16455ba49060a406f1d9f25\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\0c44abe0a16455ba49060a406f1d9f25\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\cfc538210dd34bd2fa9237921342a002\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\cfc538210dd34bd2fa9237921342a002\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\9ddb0284987a51aac197fb65166a1443\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\9ddb0284987a51aac197fb65166a1443\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\f9411fb75c96bd2f328ee216921dd522\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\f9411fb75c96bd2f328ee216921dd522\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\44e26d42bd2fce7d864061fdff707fd6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\44e26d42bd2fce7d864061fdff707fd6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\f6e442984a89705bc2f6957949242891\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\f6e442984a89705bc2f6957949242891\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\9930058dff823cd1f2600f9f5799c4a2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\9930058dff823cd1f2600f9f5799c4a2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\1584501eb28586cc51269bde958b4134\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\1584501eb28586cc51269bde958b4134\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\24df02b358274cf79489c0e31706c8b2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\24df02b358274cf79489c0e31706c8b2\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:0.8.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\fbcore-0.8.1.aar\b987a1cdfc2fef88477986511461fdea\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.8.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\fbcore-0.8.1.aar\b987a1cdfc2fef88477986511461fdea\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\54f890528a8cef989191f4ad159f7138\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\54f890528a8cef989191f4ad159f7138\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\f4194356e78887baa50c0854490fa8a6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\f4194356e78887baa50c0854490fa8a6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a77a040c892568972987dd0bec0879cd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a77a040c892568972987dd0bec0879cd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\6e0b9bbb053aa3cabdcc7f85388e0edc\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\6e0b9bbb053aa3cabdcc7f85388e0edc\AndroidManifest.xml:20:5-44
+INJECTED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:295:13-297:58
+	android:resource
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:297:17-55
+	android:name
+		ADDED from D:\AndroidProjects\XvXvDoctor\XvXvDoctor\app\src\main\AndroidManifest.xml:296:17-67
+activity#com.lljjcoder.citylist.CityListSelectActivity
+ADDED from [liji.library.dev:citypickerview:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\citypickerview-1.1.0.aar\d8a0e417485cb80b723d9fbeca0bca94\AndroidManifest.xml:15:9-16:20
+	android:name
+		ADDED from [liji.library.dev:citypickerview:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\citypickerview-1.1.0.aar\d8a0e417485cb80b723d9fbeca0bca94\AndroidManifest.xml:15:19-79
+activity#cn.finalteam.galleryfinal.PhotoSelectActivity
+ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\9f614d6d926aafe6a099cf816923a249\AndroidManifest.xml:22:9-25:52
+	android:screenOrientation
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\9f614d6d926aafe6a099cf816923a249\AndroidManifest.xml:25:13-49
+	android:configChanges
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\9f614d6d926aafe6a099cf816923a249\AndroidManifest.xml:24:13-83
+	android:name
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\9f614d6d926aafe6a099cf816923a249\AndroidManifest.xml:23:13-73
+activity#cn.finalteam.galleryfinal.PhotoEditActivity
+ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\9f614d6d926aafe6a099cf816923a249\AndroidManifest.xml:26:9-29:52
+	android:screenOrientation
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\9f614d6d926aafe6a099cf816923a249\AndroidManifest.xml:29:13-49
+	android:configChanges
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\9f614d6d926aafe6a099cf816923a249\AndroidManifest.xml:28:13-83
+	android:name
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\9f614d6d926aafe6a099cf816923a249\AndroidManifest.xml:27:13-71
+activity#cn.finalteam.galleryfinal.PhotoPreviewActivity
+ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\9f614d6d926aafe6a099cf816923a249\AndroidManifest.xml:30:9-33:52
+	android:screenOrientation
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\9f614d6d926aafe6a099cf816923a249\AndroidManifest.xml:33:13-49
+	android:configChanges
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\9f614d6d926aafe6a099cf816923a249\AndroidManifest.xml:32:13-83
+	android:name
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\9f614d6d926aafe6a099cf816923a249\AndroidManifest.xml:31:13-74
+permission#${JPUSH_PKGNAME}.permission.JPUSH_MESSAGE
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:11:5-13:47
+uses-permission#${JPUSH_PKGNAME}.permission.JPUSH_MESSAGE
+MERGED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:16:5-81
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:38:5-71
+	android:name
+		ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:38:22-68
+uses-permission#android.permission.CAMERA
+ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:39:5-65
+	android:name
+		ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:39:22-62
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:40:5-80
+	android:name
+		ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:40:22-77
+receiver#cn.jpush.android.service.PushReceiver
+ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:60:9-80:20
+	android:enabled
+		ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:62:13-35
+	android:exported
+		ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:63:13-37
+	android:name
+		ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:61:13-65
+intent-filter#${JPUSH_PKGNAME}+cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
+ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:64:13-68:29
+	android:priority
+		ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:64:28-51
+intent-filter#cn.com.xxdoctor+cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
+ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:64:13-68:29
+	android:priority
+		ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:64:28-51
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
+ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:65:17-94
+	android:name
+		ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:65:25-91
+category#${JPUSH_PKGNAME}
+ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:67:17-61
+	android:name
+		ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:67:27-58
+category#cn.com.xxdoctor
+ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:67:17-61
+	android:name
+		ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:67:27-58
+intent-filter#android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:69:13-72:29
+action#android.intent.action.USER_PRESENT
+ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:70:17-77
+	android:name
+		ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:70:25-74
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:71:17-79
+	android:name
+		ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:71:25-76
+intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_REMOVED
+ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:74:13-79:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:75:17-78
+	android:name
+		ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:75:25-75
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:76:17-80
+	android:name
+		ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:76:25-77
+data
+ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:78:17-50
+	android:scheme
+		ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:78:23-47
+receiver#cn.jpush.im.android.helpers.IMReceiver
+ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:83:9-87:20
+	android:enabled
+		ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:85:13-35
+	android:exported
+		ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:86:13-37
+	android:name
+		ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:84:13-66
+receiver#cn.jpush.android.service.AlarmReceiver
+ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:90:9-92:40
+	android:exported
+		ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:92:13-37
+	android:name
+		ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:91:13-66
+provider#cn.jpush.android.service.DataProvider
+ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:95:9-98:40
+	android:authorities
+		ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:97:13-64
+	android:exported
+		ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:98:13-37
+	android:name
+		ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:96:13-65
+provider#cn.jpush.im.android.helpers.ipc.IMProvider
+ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:101:9-104:40
+	android:authorities
+		ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:103:13-62
+	android:exported
+		ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:104:13-37
+	android:name
+		ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:102:13-70
+meta-data#JPUSH_CHANNEL
+ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:112:9-114:48
+	android:value
+		ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:114:13-45
+	android:name
+		ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:113:13-41
+meta-data#JPUSH_APPKEY
+ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:116:9-118:47
+	android:value
+		ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:118:13-44
+	android:name
+		ADDED from [cn.jiguang.sdk:jmessage:2.7.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jmessage-2.7.0.aar\ce0222afa432ba34cc2c999052513078\AndroidManifest.xml:117:13-40
+meta-data#android.support.VERSION
+ADDED from [com.android.support:cardview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\7698267dcda8a9fadcb226b5150edaa2\AndroidManifest.xml:23:9-25:38
+	android:value
+		ADDED from [com.android.support:cardview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\7698267dcda8a9fadcb226b5150edaa2\AndroidManifest.xml:25:13-35
+	android:name
+		ADDED from [com.android.support:cardview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\7698267dcda8a9fadcb226b5150edaa2\AndroidManifest.xml:24:13-51

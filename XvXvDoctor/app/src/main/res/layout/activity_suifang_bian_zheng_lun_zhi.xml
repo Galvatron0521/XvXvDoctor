@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.com.xxdoctor.activity.bingChengGuanLi.BianZheng.AddBianZhengLunZhiActivity">
+
+    <include layout="@layout/common_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <ExpandableListView
+                android:visibility="gone"
+                android:id="@+id/binazheng_list"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:groupIndicator="@null" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbars="none">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:scrollbars="none">
+
+
+                        <LinearLayout
+                            android:id="@+id/bingzheng_container"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/white"
+                            android:orientation="vertical" />
+                    </ScrollView>
+                </HorizontalScrollView>
+
+                <ImageView
+                    android:id="@+id/bingzheng_arrow"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/item_patient_log_bg"
+                    android:padding="12dp"
+                    android:visibility="gone"
+                    android:src="@drawable/hide_left_arrow" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+        <ImageButton
+            android:id="@+id/menu_button"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="24dp"
+            android:layout_marginRight="36dp"
+            android:background="@drawable/menu"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/menu_list"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="72dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="99dp"
+            android:background="@drawable/item_menu_bg"
+            android:scrollbars="none"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+</LinearLayout>

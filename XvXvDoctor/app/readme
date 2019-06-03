@@ -1,0 +1,15 @@
+#
+徐徐医生
+cn.com.xxdoctor
+#
+辨证论治 量表分析
+区分详情编辑和新增
+编辑自己判断哪些是新增模块哪些是更新模块进行编辑接口和新增接口区分调用（根据左侧子父类列表子类条目moduleCode 为标识）
+#
+聊天模块采用极光实现
+
+initEmoticonsKeyBoardBar  多功能选择
+XhsEmoticonsKeyBoard  控制是+号 还是发送
+
+课题  subject
+方案  plan

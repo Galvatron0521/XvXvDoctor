@@ -1,0 +1,2 @@
+include ':app', ':chatlibrary', ':reclib-qq', ':reclib-testemoticons'
+//include ':touchImageView'

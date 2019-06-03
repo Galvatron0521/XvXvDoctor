@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:paddingBottom="8dp"
+    android:paddingTop="8dp">
+
+    <ImageView
+        android:id="@+id/item_my_subject_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="12dp"
+        android:src="@drawable/tingzhen_delete" />
+
+    <TextView
+        android:id="@+id/item_my_subject_first"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/fangan_bg"
+        android:drawableRight="@drawable/subject_arrow_bottom"
+        android:gravity="center_vertical"
+        android:padding="6dp"
+        android:text="诊断"
+        android:textColor="@color/text_color" />
+
+    <TextView
+        android:id="@+id/item_my_subject_second"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_weight="1.5"
+        android:background="@drawable/fangan_bg"
+        android:drawableRight="@drawable/subject_arrow_bottom"
+        android:gravity="center_vertical"
+        android:padding="6dp"
+        android:text="冠心病"
+        android:textColor="@color/text_color" />
+
+    <TextView
+        android:id="@+id/item_my_subject_three"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="12dp"
+        android:layout_weight="2"
+        android:background="@drawable/fangan_bg"
+        android:drawableRight="@drawable/subject_arrow_bottom"
+        android:gravity="center_vertical"
+        android:padding="6dp"
+        android:text="冠心病"
+        android:textColor="@color/text_color" />
+</LinearLayout>

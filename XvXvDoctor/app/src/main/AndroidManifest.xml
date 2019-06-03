@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="cn.com.xxdoctor">
+
+    <permission
+        android:name="cn.com.xxdoctor.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <!-- Required -->
+    <uses-permission android:name="cn.com.xxdoctor.permission.JPUSH_MESSAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <!-- Optional. Required for location feature -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:name=".base.DoctorBaseAppliction"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/DoctorAppTheme"
+        tools:replace="android:theme">
+        <activity
+            android:name=".activity.main.SplashActivity"
+            android:theme="@style/LauncherTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:process=":multiprocess"
+            tools:node="replace" />
+
+        <activity android:name=".activity.main.MainActivity" />
+        <activity android:name=".activity.patientCenter.PatientInfoActivity" />
+        <activity android:name=".activity.patientCenter.AddPatientInfoActivity" />
+        <activity android:name=".activity.tag.TagManageActivity" />
+        <activity android:name=".activity.suiFangRecord.SuiFangListActivity" />
+        <activity android:name=".activity.suiFangRecord.AddSuiFangJiluActivity" />
+        <activity android:name=".activity.suiFangFangAn.AddSuiFangFangAnActivity" />
+        <activity android:name=".activity.main.SuiFangManageActivity" />
+        <activity android:name=".activity.main.LoginActivity" />
+        <activity android:name=".activity.bingChengGuanLi.BingChengManageListActivity" />
+        <activity android:name=".activity.tag.SelectPatientTagActivity" />
+        <activity android:name=".activity.suiFangFangAn.SuiFangFangAnActivity" />
+        <activity android:name=".activity.bingChengGuanLi.BingChengSelectActivity" />
+        <activity android:name=".activity.bingChengGuanLi.BianZheng.AddBianZhengLunZhiActivity" />
+        <activity android:name=".activity.bingChengGuanLi.BianZheng.BianZhengLunDetailZhiActivity" />
+        <activity android:name=".activity.patientCenter.PatientListActivity" />
+        <activity android:name=".activity.bingChengGuanLi.PictureUpDataActivity" />
+        <activity android:name=".activity.bingChengGuanLi.LiangBiao.LiangBiaoSelectActivity" />
+        <activity android:name=".activity.bingChengGuanLi.LiangBiao.LiangBiaoSelectDetailActivity" />
+        <activity android:name=".activity.bingChengGuanLi.LiangBiao.AddLiangBiaoInfoActivity" />
+        <activity android:name=".activity.bingChengGuanLi.BingChengBaoGaoActivity" />
+        <activity android:name=".chat.activity.ChatActivity" />
+        <activity android:name=".chat.activity.ChatDetailActivity" />
+        <activity
+            android:name=".chat.activity.FinishRegisterActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name=".chat.activity.ResetPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.activity.FeedbackActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.activity.AboutJChatActivity"
+            android:screenOrientation="portrait" />
+        <!-- 这里有个需要注意的地方就是,自定义的弹窗需要自定义一个theme否则系统会默认给设置padding自己设置的属性不生效 -->
+        <activity
+            android:name=".chat.activity.PersonalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.activity.NickSignActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.activity.SearchForAddFriendActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.activity.SearchFriendInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.activity.VerificationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.activity.FriendRecommendActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.activity.SearchFriendDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.activity.SearchContactsActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".chat.utils.imagepicker.ImageBaseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.utils.imagepicker.ImageGridActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/ImagePickerTheme" />
+        <activity
+            android:name=".chat.utils.imagepicker.ImageCropActivity"
+            android:configChanges="orientation|screenSize"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/ImagePickerTheme" />
+        <activity
+            android:name=".chat.utils.imagepicker.ImagePreviewActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/ImagePickerThemeFullScreen" />
+        <activity
+            android:name=".chat.utils.imagepicker.ImagePreviewDelActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ImagePickerThemeFullScreen" />
+        <activity
+            android:name=".chat.pickerimage.PickerAlbumActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.pickerimage.PickerAlbumPreviewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.pickerimage.PickImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.activity.BrowserViewPagerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.activity.historyfile.activity.BrowserFileImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.activity.WatchVideoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.activity.SendFileActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme" />
+        <activity
+            android:name=".chat.activity.historyfile.activity.HistoryFileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme" />
+        <activity
+            android:name=".chat.activity.PlayVideoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.location.activity.MapPickerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".chat.activity.FriendInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.activity.MembersInChatActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".chat.activity.GroupActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.activity.SearchMoreFriendsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".chat.activity.SearchMoreGroupActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".chat.activity.FriendSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.activity.SetNoteNameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.activity.ChooseAtMemberActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.activity.GroupGridViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.activity.GroupNotFriendActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.activity.SelectFriendActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.activity.DownLoadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.activity.CreateGroupActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".chat.utils.photovideo.takevideo.CameraActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseFullTheme" />
+        <activity
+            android:name=".chat.activity.SearchGroupActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".chat.activity.SearchAtMemberActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".chat.activity.ForwardMsgActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".chat.activity.Person2CodeActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".chat.activity.ScanResultActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".chat.activity.CommonScanActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".chat.activity.receiptmessage.ReceiptMessageListActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".chat.activity.SearchFriendBusinessActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".chat.activity.FriendListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.activity.NotFriendSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chat.activity.GroupAvatarActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTh" />
+        <activity android:name=".activity.me.CodeActivity" />
+        <activity android:name=".activity.me.TingZhenActivity" />
+        <activity android:name=".activity.me.MyLiangBiaoListActivity" />
+        <activity android:name=".activity.me.MyLiangBiaoDetailActivity" />
+        <activity android:name=".activity.me.MySubjectListActivity" />
+        <activity android:name=".activity.me.AddMySubjectActivity" />
+        <activity android:name=".activity.me.MyPlanListActivity" />
+        <activity android:name=".activity.me.AddMyPlanActivity" />
+        <activity android:name=".activity.me.SelectMyPlanListActivity"></activity>
+        <activity android:name=".activity.me.MySuggestionAct"></activity>
+        <activity android:name=".activity.suiFangRecord.SelectMySuiFangPlanListActivity" />
+        <activity android:name=".activity.suiFangRecord.SuiFangBianZhengLunDetailZhiActivity" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

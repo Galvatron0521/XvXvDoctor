@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingLeft="12dp"
+    android:paddingTop="8dp">
+
+    <TextView
+        android:id="@+id/item_my_subject_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="课题名称"
+        android:textColor="@color/text_color" />
+
+    <TextView
+        android:id="@+id/item_my_subject_start_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="开始时间：2018-10-10" />
+
+    <TextView
+        android:id="@+id/item_my_subject_end_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:paddingBottom="8dp"
+        android:text="结束时间：2018-10-10" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/item_suifang_type"
+        android:background="@color/line_color" />
+</LinearLayout>

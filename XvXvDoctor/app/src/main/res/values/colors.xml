@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#22A63B</color>
+    <color name="colorPrimaryDark">#22A63B</color>
+    <color name="colorAccent">#22A63B</color>
+    <color name="white">#ffffff</color>
+    <color name="line_color">#f3f3f3</color>
+    <color name="un_checkd">#515151</color>
+    <color name="main_color">#22A63B</color>
+    <color name="user_title_color1">#51AF85</color>
+    <color name="user_title_color2">#168B77</color>
+    <color name="search_bg_color">#22000000</color>
+    <color name="item_logo_color">#33000000</color>
+    <color name="transparency_color">#00000000</color>
+    <color name="delete_bt_color">#ff1122</color>
+    <color name="text_color">#333333</color>
+    <color name="juhuang">#F19322</color>
+    <color name="fense">#EB6790</color>
+    <color name="qianlan">#0aa2ed</color>
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="24dp"
+            android:background="@color/qianlan" />
+
+        <ImageView
+            android:id="@+id/item_plan_statu_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/white"
+            android:src="@drawable/blue_circle" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/item_plan_task_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="14dp"
+                android:text="第一次任务"
+                android:textColor="@color/text_color" />
+
+            <TextView
+                android:id="@+id/item_plan_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="14dp"
+                android:layout_weight="1"
+                android:background="@drawable/fangan_bg"
+                android:drawableRight="@drawable/subject_arrow_bottom"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="首诊后五天"
+                android:textColor="@color/text_color" />
+
+        </LinearLayout>
+
+        <cn.com.xxdoctor.view.MyListView
+            android:id="@+id/item_plan_project_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/item_plan_add_project"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/fangan_bg"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="无量化指标任务项目"
+            android:textColor="@color/qianlan" />
+        <TextView
+            android:id="@+id/item_plan_add_project_liangbiao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/fangan_bg"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="无量表任务项目"
+            android:textColor="@color/qianlan" />
+    </LinearLayout>
+
+
+</LinearLayout>

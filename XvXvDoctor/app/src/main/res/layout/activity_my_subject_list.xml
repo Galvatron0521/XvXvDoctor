@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.com.xxdoctor.activity.suiFangRecord.SuiFangListActivity">
+
+    <include layout="@layout/common_title" />
+
+    <com.liaoinstan.springview.widget.SpringView
+        android:id="@+id/my_subject_spring"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:footer="@layout/default_footer"
+        app:header="@layout/default_header">
+
+        <ListView
+            android:id="@+id/my_subject_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/transparency_color" />
+
+    </com.liaoinstan.springview.widget.SpringView>
+
+    <TextView
+        android:id="@+id/add_my_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fangan_bg"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="添加课题"
+        android:textColor="@color/text_color" />
+</LinearLayout>
